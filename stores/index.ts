@@ -5,4 +5,6 @@ export {
   store2,
   store3,
 } from "./StoreProvider"
-export { Store1, Store2 } from "./Stores"
+export { default as Store1 } from "./Store1"
+export { default as Store2 } from "./Store2"
+export { default as Store3 } from "./Store3"
