@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "451938225022",
+    "firebase_url": "https://jauntr-dev.firebaseio.com",
+    "project_id": "jauntr-dev",
+    "storage_bucket": "jauntr-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451938225022:android:de8aef288ecc80c9",
+        "android_client_info": {
+          "package_name": "com.bitscheme.ridealert.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451938225022-m0tsklk21319fb9hph3oms29ip7vatk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVYGMcHjF73FNpY71tBfxshz9JfbBxJ0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451938225022-m0tsklk21319fb9hph3oms29ip7vatk4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "451938225022-2qcs6kkrcgo4ht50di9ngpcjfl2bcjv2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitscheme.RideAlert.dev"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451938225022:android:2da86ed8d958edb595c12f",
+        "android_client_info": {
+          "package_name": "com.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451938225022-m0tsklk21319fb9hph3oms29ip7vatk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVYGMcHjF73FNpY71tBfxshz9JfbBxJ0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451938225022-m0tsklk21319fb9hph3oms29ip7vatk4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "451938225022-2qcs6kkrcgo4ht50di9ngpcjfl2bcjv2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bitscheme.RideAlert.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
