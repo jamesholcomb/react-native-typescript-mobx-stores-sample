@@ -3,14 +3,9 @@ import React, { createContext, useContext } from "react"
  * https://reactjs.org/docs/higher-order-components.html#static-methods-must-be-copied-over
  */
 import hoistNonReactStatics from "hoist-non-react-statics"
-import RootStore from "./RootStore"
+import rootStore, { RootStore } from "./RootStore"
 
-const rootStore = new RootStore()
-const { store1, store2, store3 } = rootStore
-
-export { store1, store2, store3 }
-
-const StoreContext = createContext<RootStore>(rootStore)
+export const StoreContext = createContext<RootStore>(rootStore)
 
 StoreContext.displayName = "StoreContext"
 

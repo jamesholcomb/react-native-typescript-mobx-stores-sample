@@ -2,7 +2,7 @@ import Store1 from "./Store1"
 import Store2 from "./Store2"
 import Store3 from "./Store3"
 
-class RootStore {
+export class RootStore {
   store1
   store2
   store3
@@ -14,4 +14,4 @@ class RootStore {
   }
 }
 
-export default RootStore
+export default new RootStore()

@@ -1,5 +1,5 @@
 import { makeObservable, observable, runInAction } from "mobx"
-import RootStore from "./RootStore"
+import { RootStore } from "./RootStore"
 
 class Store2 {
   rootStore: RootStore

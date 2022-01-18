@@ -1,10 +1,15 @@
 import React from "react"
 import { Text } from "react-native"
 import { observer } from "mobx-react"
-import { store3 } from "./stores"
+import { StoreContext } from "./stores/StoreProvider"
+import { RootStore } from "./stores/RootStore"
 
-class TextImportStore extends React.Component {
+class TextContextStore extends React.Component {
+  static contextType = StoreContext
+
   render() {
+    const { store3 }: RootStore = this.context
+
     return (
       <Text
         style={{
@@ -18,4 +23,4 @@ class TextImportStore extends React.Component {
   }
 }
 
-export default observer(TextImportStore)
+export default observer(TextContextStore)

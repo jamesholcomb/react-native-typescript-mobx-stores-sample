@@ -6,7 +6,7 @@ It demonstrates a `<Text>` component using three different approaches:
 
 - `withStore()` - For legacy class components where each store is destructured into props
 - `useStore()` - For functional components using hooks
-- `import { myStore } from "./stores"` - Direct import of stores
+- `context` - For legacy class components via `static contextType = StoreContext`
 
 ## Install
 

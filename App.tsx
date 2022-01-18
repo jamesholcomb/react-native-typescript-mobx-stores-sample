@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { View, StatusBar } from "react-native"
 import { observer } from "mobx-react"
 import { StoreProvider, useStore } from "./stores"
-import TextImportStore from "./TextImportStore"
+import TextContextStore from "./TextContextStore"
 import TextUseStore from "./TextUseStore"
 import TextWithStore from "./TextWithStore"
 
@@ -34,7 +34,7 @@ export default observer(() => {
       >
         <TextWithStore />
         <TextUseStore />
-        <TextImportStore />
+        <TextContextStore />
       </View>
     </StoreProvider>
   )
