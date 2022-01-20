@@ -12,7 +12,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "tslint": "tsc ."
+    "tslint": "tsc"
   },
   "dependencies": {
     "hoist-non-react-statics": "3.3.2",
@@ -22,6 +22,8 @@
     "react-native": "0.64.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "7.16.7",
+    "@babel/plugin-proposal-private-methods": "7.16.11",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/jest": "26.0.23",

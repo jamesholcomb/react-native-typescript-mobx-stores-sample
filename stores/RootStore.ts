@@ -13,5 +13,3 @@ export class RootStore {
     this.store3 = new Store3(this)
   }
 }
-
-export default new RootStore()
