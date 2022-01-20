@@ -1,4 +1,4 @@
-import { makeObservable, observable, runInAction } from "mobx"
+import { computed, makeObservable, observable, runInAction } from "mobx"
 import { RootStore } from "./"
 
 class Store3 {
@@ -10,7 +10,12 @@ class Store3 {
 
     makeObservable(this, {
       ready: observable,
+      label: computed,
     })
+  }
+
+  get label() {
+    return this.ready ? "READY" : "WAITING"
   }
 
   init = async () => {
